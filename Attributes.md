@@ -287,9 +287,9 @@ to reduce the damage of that specific cause.
 
 to set the Custom Monster's equipment piece
 
-## DropChance (*)
+#### DropChance (*)
 * Input Type: Double
 * The chance at which this equipment piece will drop. Where 0 is 0% and 1 is 100%
-## RegistryItem
+#### RegistryItem
 * Input Type: String
 * The input value must match an ItemStack in the ItemRegistry. To register an item, use /itemregistry or /ir in-game.
