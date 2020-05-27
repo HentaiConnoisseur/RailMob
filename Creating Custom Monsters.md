@@ -33,9 +33,9 @@ MobsA:
    CustomEntity:
       Name: 'Custom Zombie' // new name
       Spawn-Conditions:
-         Spawn-Chance: 0.5
-         Min-Level: 0
-         Max-Level: 100
+         SpawnChance: 0.5
+         MinLevel: 0
+         MaxLevel: 100
          EntityType: ZOMBIE
 ```
 
@@ -52,9 +52,9 @@ MobsA:
    CustomZombie:
       Name: Potentially Strong Zombie // new name again!
       Spawn-Conditions:
-         Spawn-Chance: 0.5
-         Min-Level: 0
-         Max-Level: 100
+         SpawnChance: 0.5
+         MinLevel: 0
+         MaxLevel: 100
          EntityType: ZOMBIE
       Attributes:
          0:
