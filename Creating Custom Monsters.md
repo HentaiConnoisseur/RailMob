@@ -60,7 +60,7 @@ MobsA:
          0:
             Type: GenericMaxHealthAttribute
             BaseValue: 1
-	    ValueIncreasePerLevel: 1
+            ValueIncreasePerLevel: 1
             AddBukkitDefaultValue: false
 ```
 
