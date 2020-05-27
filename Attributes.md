@@ -65,8 +65,6 @@ When applied, the Custom Monster will produce fire in a set radius, that removes
 * Each produced fire block will check this chance, and if it passes, the fire will spawn, else nothing will happen. This allows for a more random fire pattern.
 ### Generic'X'Attribute
 
-
-
 <details><summary>Replace 'X' with any of the following (case-insensitive)</summary>
 <p>
  
@@ -112,6 +110,8 @@ to change the Minecraft Attribute on a Custom Monster
 * If set to false, the default value for this Attribute will not be added on to the BaseValue
 
 ### GenericInflict'X'Attribute
+
+
 
 <details><summary>Replace 'X' with any of the following (case-insensitive)</summary>
 <p>
@@ -184,3 +184,5 @@ to change the Minecraft Attribute on a Custom Monster
   * Inflicts fire
 </p>
 </details>
+
+to have that effect apply on the attacked entity
