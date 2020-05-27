@@ -190,8 +190,10 @@ Note: This even works for creeper explosions, and entity projectiles!
 to have that effect apply on the entity
 
 #### BaseDuration (*)
-* How long the effect will last on the attacked entity.
+* Input Type: Long
+* How long the effect will last on the attacked entity in ticks.
 #### BaseAmplifier (*) (Applies to all but 'FIRE')
+* Input Type: Integer
 * The level of the effect.
 
 ### Generic'X'DamageReductionAttribute
@@ -260,5 +262,34 @@ to have that effect apply on the entity
 
 to reduce the damage of that specific cause.
 
-## Reduction (*)
+#### Reduction (*)
 * Damage Reduction (currentDamage * Reduction) where 0 Reduction is 100% and 1 is 0%
+
+### GenericEquipment'X'Attribute
+
+<details><summary>Replace 'X' with any of the following (case-insensitive)</summary>
+<p>
+
+* HELMET
+  * The Custom Monster's helmet
+* CHESTPLATE
+  * The Custom Monster's Chestplate
+* LEGGINGS
+  * The Custom Monster's Leggings
+* BOOTS
+  * The Custom Monster's Boots
+* MAINHAND
+  * The Custom Monster's Mainhand
+* OFFHAND
+  * The Custom Monster's Offhand
+</p>
+</details>
+
+to set the Custom Monster's equipment piece
+
+## DropChance (*)
+* Input Type: Double
+* The chance at which this equipment piece will drop. Where 0 is 0% and 1 is 100%
+## RegistryItem
+* Input Type: String
+* The input value must match an ItemStack in the ItemRegistry. To register an item, use /itemregistry or /ir in-game.
