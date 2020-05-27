@@ -71,7 +71,7 @@ When applied, the Custom Monster will produce fire in a set radius, that removes
 <p>
 
 ARMOR	
-Armor bonus of an Entity.<b>
+Armor bonus of an Entity.<p>
 ARMORTOUGHNESS	
 Armor durability bonus of an Entity.
 ATTACKDAMAGE	
