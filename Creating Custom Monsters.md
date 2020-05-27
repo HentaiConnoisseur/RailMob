@@ -50,7 +50,7 @@ Attributes can be defined within a Custom Monster like so:
 ```yaml
 MobsA:
    CustomZombie:
-      Name: Potentially Strong Zombie // new name again!
+      Name: Scaled Zombie // new name again!
       SpawnConditions:
          SpawnChance: 0.5
          MinLevel: 0
