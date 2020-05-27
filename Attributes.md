@@ -65,9 +65,11 @@ When applied, the Custom Monster will produce fire in a set radius, that removes
 * Each produced fire block will check this chance, and if it passes, the fire will spawn, else nothing will happen. This allows for a more random fire pattern.
 ### Generic'X'Attribute
 
+
+
 <details><summary>Replace 'X' with any of the following (case-insensitive)</summary>
 <p>
- 
+
 * ARMOR
   * Armor bonus of a Custom Monster.
   
@@ -111,11 +113,12 @@ to change the Minecraft Attribute on a Custom Monster
 
 ### GenericInflict'X'Attribute
 
-
+Note: This even works for creeper explosions, and entity projectiles!
 
 <details><summary>Replace 'X' with any of the following (case-insensitive)</summary>
 <p>
- 
+
+* ARMOR
 * ABSORPTION	
   * Increases the maximum health of an entity with health that cannot be regenerated, but is refilled every 30 seconds.
 * BAD_OMEN	
@@ -185,4 +188,7 @@ to change the Minecraft Attribute on a Custom Monster
 </p>
 </details>
 
-to have that effect apply on the attacked entity
+#### BaseDuration (*)
+* How long the effect will last on the attacked entity.
+#### BaseAmplifier (Applies to all but 'FIRE')
+* The level of the effect.
