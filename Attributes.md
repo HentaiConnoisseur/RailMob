@@ -108,7 +108,7 @@ to change the Minecraft Attribute on a Custom Monster
 * Input Type: Double
 * The Attribute's base value on the Custom Monster.
 #### AddBukkitDefaultValue
-* Input Type: Double
+* Input Type: Boolean
 * If set to false, the default value for this Attribute will not be added on to the BaseValue
 
 ### GenericInflict'X'Attribute
@@ -191,5 +191,5 @@ to have that effect apply on the entity
 
 #### BaseDuration (*)
 * How long the effect will last on the attacked entity.
-#### BaseAmplifier (Applies to all but 'FIRE')
+#### BaseAmplifier (*) (Applies to all but 'FIRE')
 * The level of the effect.
