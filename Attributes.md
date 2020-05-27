@@ -188,6 +188,8 @@ Note: This even works for creeper explosions, and entity projectiles!
 </p>
 </details>
 
+to have that effect apply on the entity
+
 #### BaseDuration (*)
 * How long the effect will last on the attacked entity.
 #### BaseAmplifier (Applies to all but 'FIRE')
