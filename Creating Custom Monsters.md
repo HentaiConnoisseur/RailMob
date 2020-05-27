@@ -1,4 +1,3 @@
-
 Creating Custom Monsters is easy in RailMob.
 
 Note: By retroactive, I mean changes are reflected in existing entities.
@@ -18,7 +17,9 @@ Mobs:
   Name: 'Custom Entity' // actual in-game name
   ```
 
-The 'Name' value is the entity's display name in-game. Color codes are supported. Names are retroactive.
+The 'Name' value is the entity's display name in-game. Color codes are supported. 
+
+Note: The 'Name' value is retroactive.
 
 Custom Monsters can have Spawn Conditions. All conditions must evaluate to true for an entity to become the Custom Monster.
 
@@ -43,14 +44,14 @@ Note: Conditions are not retroactive. Once an entity meets the conditions for a 
 
 With the above config, all zombies within level 0 to 100, have a 50% chance to become the Custom Monster, CustomEntity.
 
-CustomEntity still does nothing, and that's a shame. Let's add some Attributes.
+The Custom Monster, CustomEntity, still does nothing, and that's a shame. Let's add some Attributes to spice things up.
 
 Attributes can be defined within a Custom Monster like so:
 
 ```yaml
 MobsA:
    CustomZombie:
-      Name: 'Scaled Zombie' // new name again!
+      Name: Potentially Strong Zombie // new name again!
       SpawnConditions:
          SpawnChance: 0.5
          MinLevel: 0
@@ -60,7 +61,7 @@ MobsA:
          0:
             Type: GenericMaxHealthAttribute
             BaseValue: 1
-            ValueIncreasePerLevel: 1
+	    ValueIncreasePerLevel: 1
             AddBukkitDefaultValue: false
 ```
 
@@ -70,7 +71,6 @@ The '0' top-level section in 'Attributes' can be anything as long as it's unique
 
 A list of Attributes can be found here: {}
 
-Attributes are retroactive.
-
+Note: Most Attributes are retroactive.
 
 TODO: PathfindingGoals
