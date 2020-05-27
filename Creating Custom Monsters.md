@@ -32,7 +32,7 @@ Here's an updated configuration with spawn conditions.
 MobsA:
    CustomEntity:
       Name: 'Custom Zombie' // new name
-      Spawn-Conditions:
+      SpawnConditions:
          SpawnChance: 0.5
          MinLevel: 0
          MaxLevel: 100
@@ -51,7 +51,7 @@ Attributes can be defined within a Custom Monster like so:
 MobsA:
    CustomZombie:
       Name: Potentially Strong Zombie // new name again!
-      Spawn-Conditions:
+      SpawnConditions:
          SpawnChance: 0.5
          MinLevel: 0
          MaxLevel: 100
