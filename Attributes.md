@@ -103,3 +103,10 @@ When applied, the Custom Monster will produce fire in a set radius, that removes
 </details>
 
 to change the Minecraft Attribute on a Custom Monster
+
+#### BaseValue (*)
+* Input Type: Double
+* The Attribute's base value on the Custom Monster.
+#### AddBukkitDefaultValue
+* Input Type: Double
+* If set to false, the default value for this Attribute will not be added on to the BaseValue.
