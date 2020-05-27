@@ -1,9 +1,9 @@
 
 # Possibilities
 
-With RailMob, creating custom monsters is now possible. Custom monsters can have a plethora of things added to them.
+With RailMob, creating Custom Monsters is now possible. Custom monsters can have a plethora of things added to them.
 
-A list of things that can be done with RailMob
+A list of things that can be done with RailMob:
 
 ### PathfindingGoals
 
@@ -40,4 +40,7 @@ An example image:
 In this image, the Mimic Creeper is a level 58, has half a heart of health (fixed), does 2.0 damage, and has 0.0 armor.
 ![Example Image](https://i.imgur.com/eXSUWRh.png)
 
+### More can be seen at 
+
+[Creating Custom Monsters](other_file.md)
 
