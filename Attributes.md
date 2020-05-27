@@ -109,4 +109,79 @@ to change the Minecraft Attribute on a Custom Monster
 * The Attribute's base value on the Custom Monster.
 #### AddBukkitDefaultValue
 * Input Type: Double
-* If set to false, the default value for this Attribute will not be added on to the BaseValue.
+* If set to false, the default value for this Attribute will not be added on to the BaseValue
+
+### GenericInflict'X'Attribute
+
+<details><summary>Replace 'X' with any of the following (case-insensitive)</summary>
+<p>
+
+* ARMOR
+* ABSORPTION	
+  * Increases the maximum health of an entity with health that cannot be regenerated, but is refilled every 30 seconds.
+* BAD_OMEN	
+  * oof.
+* BLINDNESS	
+  * Blinds an entity.
+* CONDUIT_POWER	
+  * Effects granted by a nearby conduit.
+* CONFUSION	
+  * Warps vision on the client.
+* DAMAGE_RESISTANCE	
+  * Decreases damage dealt to an entity.
+* DOLPHINS_GRACE	
+  * Squee'ek uh'k kk'kkkk squeek eee'eek.
+* FAST_DIGGING	
+  * Increases dig speed.
+* FIRE_RESISTANCE	
+  * Stops fire damage.
+* GLOWING	
+  * Outlines the entity so that it can be seen from afar.
+* HARM	
+  * Hurts an entity.
+* HEAL	
+  * Heals an entity.
+* HEALTH_BOOST	
+  * Increases the maximum health of an entity.
+* HERO_OF_THE_VILLAGE	
+  * \o/.
+* HUNGER	
+  * Increases hunger.
+* INCREASE_DAMAGE	
+  * Increases damage dealt.
+* INVISIBILITY	
+  * Grants invisibility.
+* JUMP	
+  * Increases jump height.
+* LEVITATION	
+  * Causes the entity to float into the air.
+* LUCK	
+  * Loot table luck.
+* NIGHT_VISION	
+  * Allows an entity to see in the dark.
+* POISON	
+  * Deals damage to an entity over time.
+* REGENERATION	
+  * Regenerates health.
+* SATURATION	
+  * Increases the food level of an entity each tick.
+* SLOW	
+  * Decreases movement speed.
+* SLOW_DIGGING	
+  * Decreases dig speed.
+* SLOW_FALLING	
+  * Slows entity fall rate.
+* SPEED	
+  * Increases movement speed.
+* UNLUCK	
+  * Loot table unluck.
+* WATER_BREATHING	
+  * Allows breathing underwater.
+* WEAKNESS	
+  * Decreases damage dealt by an entity.
+* WITHER	
+  * Deals damage to an entity over time and gives the health to the shooter.
+* FIRE
+  * Inflicts fire
+</p>
+</details>
