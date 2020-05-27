@@ -42,5 +42,5 @@ In this image, the Mimic Creeper is a level 58, has half a heart of health (fixe
 
 ### For more information
 
-[Creating Custom Monsters](other_file.md)
+[Creating Custom Monsters](Creating Custom Monsters.md)
 
