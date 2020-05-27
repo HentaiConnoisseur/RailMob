@@ -118,7 +118,6 @@ Note: This even works for creeper explosions, and entity projectiles!
 <details><summary>Replace 'X' with any of the following (case-insensitive)</summary>
 <p>
 
-* ARMOR
 * ABSORPTION	
   * Increases the maximum health of an entity with health that cannot be regenerated, but is refilled every 30 seconds.
 * BAD_OMEN	
