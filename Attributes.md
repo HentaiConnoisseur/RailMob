@@ -69,7 +69,6 @@ When applied, the Custom Monster will produce fire in a set radius, that removes
 
 <details><summary>Replace 'X' with any of the following (case-insensitive)</summary>
 <p>
-
 * ARMOR
   * Armor bonus of a Custom Monster.
   
@@ -115,8 +114,6 @@ to change the Minecraft Attribute on a Custom Monster
 
 <details><summary>Replace 'X' with any of the following (case-insensitive)</summary>
 <p>
-
-* ARMOR
 * ABSORPTION	
   * Increases the maximum health of an entity with health that cannot be regenerated, but is refilled every 30 seconds.
 * BAD_OMEN	
