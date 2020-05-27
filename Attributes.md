@@ -71,40 +71,34 @@ When applied, the Custom Monster will produce fire in a set radius, that removes
 <p>
 
 * ARMOR	
-  * Armor bonus of an Entity.
+  * Armor bonus of a Custom Monster.
   
 * ARMORTOUGHNESS	
-  * Armor durability bonus of an Entity.
+  * Armor durability bonus of a Custom Monster.
   
 * ATTACKDAMAGE	
-  * Attack damage of an Entity.
- 
-* ATTACKSPEED	
-  * Attack speed of an Entity.
+  * Attack damage of a Custom Monster.
   
-* FLYINGSPEED	
-  * Flying speed of an Entity.
+* FLYINGSPEED	(parrots only)
+  * Flying speed of a Custom Monster.
   
 * FOLLOWRANGE	
-  * Range at which an Entity will follow others.
+  * Range at which a Custom Monster will follow others.
   
 * KNOCKBACKRESISTANCE	
-  * Resistance of an Entity to knockback.
-  
-* LUCK	
-  * Luck bonus of an Entity.
+  * Resistance of a Custom Monster to knockback.
   
 * MAXHEALTH	
-  * Maximum health of an Entity.
+  * Maximum health of a Custom Monster.
   
 * MOVEMENTSPEED	
-  * Movement speed of an Entity.
+  * Movement speed of a Custom Monster.
   
 * HORSEJUMPSTRENGTH	
-  * Strength with which a horse will jump.
+  * Strength with which a Custom Monster will jump. (horse only)
   
 * ZOMBIESPAWNREINFORCEMENTS	
-  * Chance of a zombie to spawn reinforcements.
+  * Chance of a Custom Monster to spawn reinforcements. (zombie only)
 
 </p>
 </details>
