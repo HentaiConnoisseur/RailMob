@@ -70,35 +70,36 @@ When applied, the Custom Monster will produce fire in a set radius, that removes
 <details><summary>Replace 'X' with any of the following (case-insensitive)</summary>
 <p>
 
-* ARMOR	
+* ARMOR
   * Armor bonus of a Custom Monster.
   
-* ARMORTOUGHNESS	
+* ARMORTOUGHNESS
   * Armor durability bonus of a Custom Monster.
   
-* ATTACKDAMAGE	
+* ATTACKDAMAGE
   * Attack damage of a Custom Monster.
   
-* FLYINGSPEED	(parrots only)
+* FLYINGSPEED (parrots only)
   * Flying speed of a Custom Monster.
   
-* FOLLOWRANGE	
+* FOLLOWRANGE
   * Range at which a Custom Monster will follow others.
   
-* KNOCKBACKRESISTANCE	
+* KNOCKBACKRESISTANCE
   * Resistance of a Custom Monster to knockback.
   
-* MAXHEALTH	
+* MAXHEALTH
   * Maximum health of a Custom Monster.
   
-* MOVEMENTSPEED	
+* MOVEMENTSPEED
   * Movement speed of a Custom Monster.
   
-* HORSEJUMPSTRENGTH	
-  * Strength with which a Custom Monster will jump. (horse only)
+* HORSEJUMPSTRENGTH (horse only)
+  * Strength with which a Custom Monster will jump.
   
-* ZOMBIESPAWNREINFORCEMENTS	
-  * Chance of a Custom Monster to spawn reinforcements. (zombie only)
-
+* ZOMBIESPAWNREINFORCEMENTS (zombie only)
+  * Chance of a Custom Monster to spawn reinforcements.
 </p>
 </details>
+
+to change the Minecraft Attribute on a Custom Monster
