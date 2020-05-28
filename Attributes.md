@@ -10,20 +10,20 @@ and so on. The 'Input Type' remains the same for its child.
 These 'IncreasePerLevel' child Values scale with the Custom Monsters level. (child Value * Custom Monster Level)
 
 
-## ForeverBurningAttribute
+# ForeverBurningAttribute
 
 When applied, the Custom Monster will constantly be on fire, even when it's raining or in water.
 
 This Attribute has no customizable values.
 
-##  DamagedByWaterAttribute
+#  DamagedByWaterAttribute
 
 When applied, the Custom Monster will be damaged when in water.
 
 #### BaseDamage (*)
 * Input Type: Double
 * The base amount of damage this Custom Monster will take in water
-## ZombieModificationAttribute
+# ZombieModificationAttribute
 
 Applies to: Zombie, Drowned, Husk, PigZombie, ZombieVillager
 
@@ -32,7 +32,7 @@ When applied, the input values will be changed on the Custom Monster.
 #### ConversionTimeValue (*)
 * Input Type: Double
 * The amount of ticks until this Custom Monster will be converted to a Drowned as a result of being underwater
-## CreeperModificationAttribute
+# CreeperModificationAttribute
 
 Applies to: Creeper
 
@@ -47,7 +47,7 @@ When applied, the input values will be changed on the Custom Monster.
 #### IsPowered
 * Input Type: Boolean
 * Sets whether this creeper is powered or not
-### FireAuraAttribute
+# FireAuraAttribute
 
 When applied, the Custom Monster will produce fire in a set radius, that removes on a fixed duration.
 
@@ -111,7 +111,7 @@ to change the Minecraft Attribute on a Custom Monster
 * Input Type: Boolean
 * If set to false, the default value for this Attribute will not be added on to the BaseValue
 
-### GenericInflict'X'Attribute
+# GenericInflict'X'Attribute
 
 Note: This even works for creeper explosions, and entity projectiles!
 
@@ -196,7 +196,7 @@ to have that effect apply on the entity
 * Input Type: Integer
 * The level of the effect.
 
-### Generic'X'DamageReductionAttribute
+# Generic'X'DamageReductionAttribute
 
 <details><summary>Replace 'X' with any of the following (case-insensitive)</summary>
 <p>
@@ -265,7 +265,7 @@ to reduce the damage of that specific cause.
 #### Reduction (*)
 * Damage Reduction (currentDamage * Reduction) where 0 Reduction is 100% and 1 is 0%
 
-### GenericEquipment'X'Attribute
+# GenericEquipment'X'Attribute
 
 <details><summary>Replace 'X' with any of the following (case-insensitive)</summary>
 <p>
@@ -294,7 +294,7 @@ to set the Custom Monster's equipment piece
 * Input Type: String
 * The input value must match an ItemStack in the ItemRegistry. To register an item, use /itemregistry or /ir in-game.
 
-### SplitAttribute
+# SplitAttribute
 
 When a Custom Monster dies with this Attribute, that Custom Monster will split, like a slime, into another Custom Monster. The spawned Custom Monsters are sent into various directions relative to the killed Custom Monster.
 
@@ -302,9 +302,9 @@ Because Custom Monsters do not store an EntityType, like Zombie, you must specif
 
 Note: The spawned Custom Monsters will ignore the input Custom Monster's conditions.
 
-## MobType
+#### MobType
 * The Custom Monster to split into.
-## BaseAmount (*)
+#### BaseAmount (*)
 * The amount of the specified Custom Monster to spawn.
-## EntityType
+#### EntityType
 * The spawned Custom Monsters EntityType
