@@ -308,3 +308,9 @@ Note: The spawned Custom Monsters will ignore the input Custom Monster's conditi
 * The amount of the specified Custom Monster to spawn.
 #### EntityType
 * The spawned Custom Monsters EntityType
+
+# MimicAttribute
+
+When applied, the Custom Monster, if it has no target, will become the block that it is on, hiding the Custom Monster. Upon finding a target, the Custom Monster will reappear. Once there is no target again, it will go back into hiding.
+
+This Attribute has no values.
