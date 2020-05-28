@@ -63,7 +63,7 @@ When applied, the Custom Monster will produce fire in a set radius, that removes
 #### SpawnChance (*)
 * Input Type: double
 * Each produced fire block will check this chance, and if it passes, the fire will spawn, else nothing will happen. This allows for a more random fire pattern.
-### Generic'X'Attribute
+# Generic'X'Attribute
 
 
 
