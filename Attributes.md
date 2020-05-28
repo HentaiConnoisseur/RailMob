@@ -293,3 +293,18 @@ to set the Custom Monster's equipment piece
 #### RegistryItem
 * Input Type: String
 * The input value must match an ItemStack in the ItemRegistry. To register an item, use /itemregistry or /ir in-game.
+
+### SplitAttribute
+
+When a Custom Monster dies with this Attribute, that Custom Monster will split, like a slime, into another Custom Monster. The spawned Custom Monsters are sent into various directions relative to the killed Custom Monster.
+
+Because Custom Monsters do not store an EntityType, like Zombie, you must specify it yourself. 
+
+Note: The spawned Custom Monsters will ignore the input Custom Monster's conditions.
+
+## MobType
+* The Custom Monster to split into.
+## BaseAmount (*)
+* The amount of the specified Custom Monster to spawn.
+## EntityType
+* The spawned Custom Monsters EntityType
