@@ -16,6 +16,8 @@ Mobs:
   Name: 'Custom Entity' // actual in-game name
   ```
 
+# Spawn Conditions
+
 Custom Monsters can have Spawn Conditions. All conditions must evaluate to true for an entity to become the Custom Monster.
 
 Since the above entity has no conditions, all entities that spawn will become that Custom Monster.
@@ -40,6 +42,8 @@ Note: Conditions are not retroactive. Once an entity meets the conditions for a 
 With the above config, all zombies within level 0 to 100, have a 50% chance to become the Custom Monster, CustomEntity.
 
 The Custom Monster, CustomEntity, still does nothing, and that's a shame. Let's add some Attributes to spice things up.
+
+# Attributes
 
 Attributes can be defined within a Custom Monster like so:
 
@@ -68,4 +72,27 @@ A list of Attributes can be found here: {}
 
 Note: Most Attributes are retroactive.
 
-TODO: PathfindingGoals
+# Droptables
+
+Custom Monsters can drop custom loot through droptables. Droptables are configurable in-game with the command /droptable
+
+```yaml
+MobsA:
+   CustomZombie:
+      Name: 'Potentially Strong Zombie'
+      SpawnConditions:
+         SpawnChance: 0.5
+         MinLevel: 0
+         MaxLevel: 100
+         EntityType: ZOMBIE
+      Droptables:
+       - customtable
+      Attributes:
+         0:
+            Type: GenericMaxHealthAttribute
+            BaseValue: 1
+            BaseValueIncreasePerLevel: 1
+            AddBukkitDefaultValue: false
+```
+
+Assuming you configured 'customtable' as a droptable in-game, the above Custom Monster will use that as their drops.
