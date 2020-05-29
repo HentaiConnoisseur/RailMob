@@ -16,10 +16,6 @@ Mobs:
   Name: 'Custom Entity' // actual in-game name
   ```
 
-The 'Name' value is the entity's display name in-game. Color codes are supported. 
-
-Note: The 'Name' value is retroactive.
-
 Custom Monsters can have Spawn Conditions. All conditions must evaluate to true for an entity to become the Custom Monster.
 
 Since the above entity has no conditions, all entities that spawn will become that Custom Monster.
