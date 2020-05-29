@@ -3,7 +3,6 @@ Creating Custom Monsters is easy in RailMob.
 Note: By retroactive, I mean changes are reflected in existing entities.
 Note: Code-names and Custom Monsters are the same thing.
 
-Custom Monsters go into the 'Mob' section of the Config.yml file located in the RailMob's data folder in the plugin folder of your server.
 
 Any top-level section in the 'Mob' section is the Custom Monster's code-name. Any values/sections within that code-name apply to that Custom Monster only.
 
