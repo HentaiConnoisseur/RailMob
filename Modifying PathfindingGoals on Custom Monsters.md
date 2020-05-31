@@ -18,7 +18,7 @@ Used to do things such as floating, looking at players, walking, etc. Anything n
 
 # Fields
 
-When adding a PathfindingGoal, you can specify fields to set on to the added PathfindingGoal.
+When adding a PathfindingGoal, you have to specify every field that PathfindingGoal has.
 
 When removing a PathfindingGoal, you can specify the fields to match to avoid removing the wrong PathfindingGoal.
 
