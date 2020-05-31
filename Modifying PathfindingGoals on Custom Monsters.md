@@ -52,7 +52,7 @@ Mobs:
             Type: remove
             GoalType: GOAL
             Fields:
-             AvoidEntity: EntityOcelot
+             AvoidEntity: Ocelot
 ```
 
 The above config will remove the PathfindingGoal, PathfinderGoalAvoidTarget, from the ExampleMonster matching the input AvoidEntity field, making it no longer afraid of ocelots.
@@ -73,7 +73,7 @@ Mobs:
             Type: add
             GoalType: GOAL
             Fields:
-             AvoidEntity: EntityOcelot
+             AvoidEntity: Ocelot
              AvoidDistanceCheck: 6
              WalkSpeedModifier: 1.5
              SprintSpeedModifier: 1
