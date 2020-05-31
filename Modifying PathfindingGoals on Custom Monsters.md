@@ -1,10 +1,10 @@
-Adding/removing PathfindingGoals on Custom Monsters is simple once you get the hang of it.
+Adding/removing PathfinderGoals on Custom Monsters is simple once you get the hang of it.
 
 When removing or adding a PathfindingGoal on a Custom Monster, you must first specify the type of the PathfindingGoal.
 
-There are 2 goal types of PathfindingGoals.
+There are 2 goal types of PathfinderGoals.
 
-To figure out the goal type of the PathfindingGoal that you wish to add or remove, scroll down to 'Current PathfindingGoals' section
+To figure out the goal type of the PathfindingGoal that you wish to add or remove, scroll down to 'Current PathfinderGoals' section
 
 # Types
 
@@ -22,17 +22,17 @@ When adding a PathfindingGoal, you have to specify every field that PathfindingG
 
 When removing a PathfindingGoal, you can specify the fields to match to avoid removing the wrong PathfindingGoal.
 
-Fields for all of the current PathfindingGoals can be found in the 'Current PathfindingGoals' section
+Fields for all of the current PathfinderGoals can be found in the 'Current PathfinderGoals' section
 
 Learn how to use Fields in the sections below.
 
-# Removing PathfindingGoals
+# Removing PathfinderGoals
 
 ```yaml
 Mobs:
    ExampleMonster:
       Name: example
-      PathfindingGoals:
+      PathfinderGoals:
          0:
             Mapping: PathfinderGoalFloatMapping
             Type: remove
@@ -46,7 +46,7 @@ The above config will remove the PathfindingGoal, PathfinderGoalFloat, from the 
 Mobs:
    ExampleMonster:
       Name: example
-      PathfindingGoals:
+      PathfinderGoals:
          0:
             Mapping: PathfinderGoalAvoidTarget
             Type: remove
@@ -57,7 +57,7 @@ Mobs:
 
 The above config will remove the PathfindingGoal, PathfinderGoalAvoidTarget, from the ExampleMonster matching the input AvoidEntity field, making it no longer afraid of ocelots.
 
-# Adding PathfindingGoals
+# Adding PathfinderGoals
 
 Every field of the PathfindingGoal must be input when adding. That means if a PathfindingGoal has 3 fields, you need to input a value for every one of those fields.
 
@@ -67,7 +67,7 @@ When a PathfindingGoal has no fields, you don't need to specify any fields.
 Mobs:
    ExampleMonster:
       Name: example
-      PathfindingGoals:
+      PathfinderGoals:
          0:
             Mapping: PathfinderGoalAvoidTarget
             Type: add
@@ -85,7 +85,7 @@ The above config will add the PathfindingGoal, PathfinderGoalAvoidTarget, to Exa
 Mobs:
    ExampleMonster:
       Name: example
-      PathfindingGoals:
+      PathfinderGoals:
          0:
             Mapping: PathfinderGoalFloat
             Type: add
@@ -94,7 +94,7 @@ Mobs:
 
 The above config will add the PathfindingGoal, PathfinderGoalFloat, to ExampleMonster. Since PathfinderGoalFloat has no fields, none are specified.
 
-# Current PathfindingGoals
+# Current PathfinderGoals
 
 # PathfinderGoalFloat
 
