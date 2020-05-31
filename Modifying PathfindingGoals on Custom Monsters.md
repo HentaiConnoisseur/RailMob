@@ -5,6 +5,8 @@ When removing/adding a PathfindingGoal on a Custom Monster, you must first speci
 
 There are 2 types of PathfindingGoals.
 
+# Types
+
 ## Target
 
 Used to find a target
@@ -14,3 +16,6 @@ Used to find a target
 Used to do things such as floating, looking at players, walking, etc. Anything not target related.
 
 To figure out the type of the PathfindingGoal that you wish to add or remove, scroll down.
+
+
+# Removal
