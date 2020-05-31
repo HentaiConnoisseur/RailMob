@@ -102,3 +102,22 @@ Causes the CustomMonster to float on water.
 
 ## Fields
 * This PathfindingGoal has no fields.
+
+# PathfinderGoalAvoidTarget
+
+Causes the CustomMonster to avoid the specified entity.
+
+## Fields
+
+### AvoidEntity
+* Input Type: String
+* The type of Entity to avoid. For a list of entities, see https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+### AvoidDistanceCheck
+* Input Type: float
+* The minimum distance the AvoidEntity has to be to start avoiding.
+### WalkSpeedModifier
+* Input Type: double
+* The temporary walk speed multiplier for this entity, during the avoiding state.
+### SprintSpeedModifier
+* Input Type: double
+* The temporary sprint speed multiplier for this entity, during the avoiding state.
