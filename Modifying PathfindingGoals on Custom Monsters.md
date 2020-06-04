@@ -34,7 +34,7 @@ Mobs:
       Name: example
       PathfinderGoals:
          0:
-            Mapping: PathfinderGoalFloatMapping
+            Mapping: PathfinderGoalFloat
             Type: remove
             GoalType: GOAL
 ```
