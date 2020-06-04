@@ -260,7 +260,7 @@ to have that effect apply on the entity
 </p>
 </details>
 
-to reduce the damage of that specific cause.
+to multiply the damage of that specific cause.
 
 #### DamageMultiplier (*)
 * DamageMultiplier (currentDamage * DamageMultiplier). The amount to multiply the damage by.
