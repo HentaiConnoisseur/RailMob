@@ -196,7 +196,7 @@ to have that effect apply on the entity
 * Input Type: Integer
 * The level of the effect.
 
-# Generic'X'DamageReductionAttribute
+# Generic'X'DamageMultiplierAttribute
 
 <details><summary>Replace 'X' with any of the following (case-insensitive)</summary>
 <p>
@@ -262,8 +262,8 @@ to have that effect apply on the entity
 
 to reduce the damage of that specific cause.
 
-#### Reduction (*)
-* Damage Reduction (currentDamage * Reduction) where 0 Reduction is 100% and 1 is 0%
+#### DamageMultiplier (*)
+* DamageMultiplier (currentDamage * DamageMultiplier). The amount to multiply the damage by.
 
 # GenericEquipment'X'Attribute
 
